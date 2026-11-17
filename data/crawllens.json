@@ -1,0 +1,642 @@
+{
+  "users": [
+    {
+      "id": "user_demo_123",
+      "fullName": "Demo Auditor",
+      "email": "demo@crawllens.io",
+      "passwordHash": "84ccf5b61b24f2c96a97effd3af75bd659a2056cd58ff9ad342890942e95be1764809cb3c5a283d514b4c5c7f2d5b30983829ac12df1a9362f38f021957e47bc",
+      "salt": "2a7958c96e5a3bc068d5b27c7c09d0cd",
+      "authProvider": "email",
+      "emailVerified": true,
+      "createdAt": "2026-11-09T14:43:37.814Z",
+      "lastLoginAt": "2026-11-09T14:43:37.814Z",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80"
+    },
+    {
+      "fullName": "Manas Mughal",
+      "email": "testuser@example.com",
+      "passwordHash": "afdad1a62883c97d7612ed67b6ded4470caf672728466e4c05aaeb3e940b085ad09afa150454644905cf1bf9b0d5ec501924fc024e6ec27f190d89b16ec1870f",
+      "salt": "b34f4e034411a2a679919dd068ea0aa2",
+      "authProvider": "email",
+      "emailVerified": true,
+      "verificationCode": "448222",
+      "verificationCodeExpiresAt": 1794321823445,
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Manas%20Mughal",
+      "id": "user_52b45faa",
+      "createdAt": "2026-11-09T14:43:43.446Z",
+      "lastLoginAt": "2026-11-09T14:43:59.092Z"
+    },
+    {
+      "fullName": "Google User",
+      "email": "googleuser@example.com",
+      "authProvider": "both",
+      "emailVerified": true,
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Google",
+      "id": "user_db7b2f1d",
+      "createdAt": "2026-11-09T16:28:34.699Z",
+      "lastLoginAt": "2026-11-09T16:29:27.755Z",
+      "passwordHash": "701d4053702d5d79648601775cb991ead886ef4dfc320af604db63e0b3a2e4fc7d2a6ad912805601a2faa818cacbebc5c2d7f6b65f15a888302e5741300c1411",
+      "salt": "17709bd92489c13dced9c95587b69fda"
+    },
+    {
+      "fullName": "Another Google",
+      "email": "anothergoogle@example.com",
+      "authProvider": "both",
+      "emailVerified": true,
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Another%20Google",
+      "id": "user_b672fb88",
+      "createdAt": "2026-11-09T16:29:34.774Z",
+      "lastLoginAt": "2026-11-09T16:29:34.864Z",
+      "passwordHash": "9940fed1e66f66c461df9a7f72d53f0a762c06d42abdb571035a2695966b2c06881616741232e15e35963b51c96af5515df0ccc54af1fff1b67d422a68ee7e45",
+      "salt": "2b6e64944a34f76d63e72cd0dd6ce141"
+    },
+    {
+      "id": "user_manasmughal",
+      "fullName": "Manas Mughal",
+      "email": "manasmughal25@gmail.com",
+      "authProvider": "google",
+      "emailVerified": true,
+      "createdAt": "2026-11-09T16:40:13.587Z",
+      "lastLoginAt": "2026-11-09T16:58:53.422Z",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Manas%20Mughal"
+    },
+    {
+      "fullName": "Brand New User",
+      "email": "test_new_user@gmail.com",
+      "authProvider": "google",
+      "emailVerified": true,
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Brand%20New%20User",
+      "id": "user_e29cebf9",
+      "createdAt": "2026-11-09T16:41:28.427Z",
+      "lastLoginAt": "2026-11-09T16:41:28.427Z"
+    },
+    {
+      "fullName": "Brand New Lead",
+      "email": "brand_new_lead@gmail.com",
+      "authProvider": "google",
+      "emailVerified": true,
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Brand%20New%20Lead",
+      "id": "user_f690886c",
+      "createdAt": "2026-11-09T16:50:49.412Z",
+      "lastLoginAt": "2026-11-09T16:50:49.412Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "3059f1026fbbb1c02ff3eedd025cb188029009775a53faeecc44ef5d3aa20812",
+      "userId": "user_52b45faa",
+      "expiresAt": 1794321823446,
+      "rememberMe": false
+    },
+    {
+      "token": "4738b2b02234310084b115e7aaa528efe2215c316db4f26867706745ae92da02",
+      "userId": "user_52b45faa",
+      "expiresAt": 1794321826503,
+      "rememberMe": false
+    },
+    {
+      "token": "3e95d6d730dd984b47b85250b7b0aaa04d2dba6d5795230c40927764f086d24e",
+      "userId": "user_52b45faa",
+      "expiresAt": 1794321839093,
+      "rememberMe": false
+    },
+    {
+      "token": "090f184f25d12ab38c6e16d0fd710784dfa4581cbca46197fab10e3d5d262763",
+      "userId": "user_db7b2f1d",
+      "expiresAt": 1796833714700,
+      "rememberMe": true
+    },
+    {
+      "token": "5e05ca286a69b7a4eb4e671942f9f02d5b89b96d49fc0353ce54fe550b314de2",
+      "userId": "user_db7b2f1d",
+      "expiresAt": 1796833733192,
+      "rememberMe": true
+    },
+    {
+      "token": "d61e310e8849819b410182053f19998be457ab645d0c19d476ad5fb3c051f3ce",
+      "userId": "user_db7b2f1d",
+      "expiresAt": 1794328138791,
+      "rememberMe": false
+    },
+    {
+      "token": "092edf61633ce25e32d6c7bda91550dbc3566a6adbcbbd1b5a3d6f53792bed7c",
+      "userId": "user_db7b2f1d",
+      "expiresAt": 1796833767756,
+      "rememberMe": true
+    },
+    {
+      "token": "07140258d38a12a4bd36450c9c093590fc23455313552934f716063eee23e155",
+      "userId": "user_b672fb88",
+      "expiresAt": 1796833774775,
+      "rememberMe": true
+    },
+    {
+      "token": "4df753838446a65f95ae0093c5992794fdc50be2e4c42196e2044337d41b2431",
+      "userId": "user_b672fb88",
+      "expiresAt": 1794328174865,
+      "rememberMe": false
+    },
+    {
+      "token": "ea5e7eec121dacb928224b17e4ed8bf71a359644eff49272f04d18fd0210e4d2",
+      "userId": "user_manasmughal",
+      "expiresAt": 1796834431890,
+      "rememberMe": true
+    },
+    {
+      "token": "73f482ebb03b775b5587c723005091b9239fc4e073c491d325d1ae78d089cb3f",
+      "userId": "user_manasmughal",
+      "expiresAt": 1794328832145,
+      "rememberMe": false
+    },
+    {
+      "token": "980f86753ec125b9f487fc185af035bd9641b6be2b4540edc4a2ebcbd8e748fc",
+      "userId": "user_manasmughal",
+      "expiresAt": 1796834432152,
+      "rememberMe": true
+    },
+    {
+      "token": "294ef9e0e93256189a8732fcf3a1627180a05c0500074f71164e263467aec1da",
+      "userId": "user_manasmughal",
+      "expiresAt": 1796834487975,
+      "rememberMe": true
+    },
+    {
+      "token": "1bce5495449caaf59cadd62e110f4be5624217814aa97441090585067e778ae7",
+      "userId": "user_manasmughal",
+      "expiresAt": 1796834488263,
+      "rememberMe": true
+    },
+    {
+      "token": "d7258ebc6e965a62afe9b6d64cb3430a1225791f148b52adfdf2bb6b9a8604b8",
+      "userId": "user_manasmughal",
+      "expiresAt": 1794328888418,
+      "rememberMe": false
+    },
+    {
+      "token": "8499fb7b8573e6947b3399cabc2cbc5753cd252c9907efd71d8fcd0cab769fb8",
+      "userId": "user_e29cebf9",
+      "expiresAt": 1796834488427,
+      "rememberMe": true
+    },
+    {
+      "token": "0b922b39bb10d8a776feab562b0b0de7d5b68ac8fc0af86e5ed58d9d51f57be0",
+      "userId": "user_f690886c",
+      "expiresAt": 1796835049413,
+      "rememberMe": true
+    },
+    {
+      "token": "a0ec4318ee4793a0aea0cc550d49bafdb868fdf3af533561fd75206d1be3d0a1",
+      "userId": "user_manasmughal",
+      "expiresAt": 1796835049432,
+      "rememberMe": true
+    },
+    {
+      "token": "1c096f685000df096db4ff8ee9ad9c6f7295463a4930ac1ec7bcfc4808558602",
+      "userId": "user_manasmughal",
+      "expiresAt": 1794329449863,
+      "rememberMe": false
+    },
+    {
+      "token": "0d0ecd8835759c385587775a6badeadc9fb8c3abddce57e39a0307db5c98a6e8",
+      "userId": "user_manasmughal",
+      "expiresAt": 1796835049882,
+      "rememberMe": true
+    },
+    {
+      "token": "8af18d50d714d41da028463cc9b215183730081b873dd55cda1558e8ee914361",
+      "userId": "user_manasmughal",
+      "expiresAt": 1796835492081,
+      "rememberMe": true
+    },
+    {
+      "token": "85a87e9db813d5421d31b93b888b9bdd4ccb7443bd8b2e2e3b10f01104ced796",
+      "userId": "user_manasmughal",
+      "expiresAt": 1794329892162,
+      "rememberMe": false
+    },
+    {
+      "token": "542670ef55b44de224820ec95a1daa64620cf51b09ab6131fbf181e4dfae7d4a",
+      "userId": "user_manasmughal",
+      "expiresAt": 1796835492241,
+      "rememberMe": true
+    },
+    {
+      "token": "b0f0e96db182259156b78611869bdd70c2d4014f76fa7dba43d5177ababeda23",
+      "userId": "user_manasmughal",
+      "expiresAt": 1796835533423,
+      "rememberMe": true
+    }
+  ],
+  "audits": [
+    {
+      "id": "audit_a35ddd61",
+      "userId": "guest_user",
+      "url": "https://example.com/",
+      "normalizedUrl": "https://example.com/",
+      "domain": "example.com",
+      "crawledAt": "2026-11-09T14:44:09.012Z",
+      "status": "completed",
+      "responseTimeMs": 58,
+      "httpStatus": 200,
+      "scores": {
+        "overall": 41,
+        "seo": 49,
+        "aeo": 30,
+        "aio": 40,
+        "geo": 39,
+        "eeat": 35
+      },
+      "summary": {
+        "title": "Example Domain",
+        "metaDescription": "",
+        "canonicalUrl": "",
+        "h1Count": 0,
+        "headings": [],
+        "wordCount": 25,
+        "readingTimeMinutes": 1,
+        "imagesCount": 0,
+        "missingAltImagesCount": 0,
+        "internalLinksCount": 0,
+        "externalLinksCount": 0,
+        "schemaTypes": [],
+        "hasSitemap": true,
+        "hasRobotsTxt": true,
+        "aiBotDirectives": [
+          {
+            "bot": "GPTBot (OpenAI Search)",
+            "allowed": true
+          },
+          {
+            "bot": "PerplexityBot (Perplexity AI)",
+            "allowed": true
+          },
+          {
+            "bot": "ClaudeBot (Anthropic)",
+            "allowed": true
+          },
+          {
+            "bot": "Google-Extended (Gemini)",
+            "allowed": true
+          },
+          {
+            "bot": "BingBot (Copilot)",
+            "allowed": true
+          }
+        ],
+        "eeatSignals": [
+          {
+            "signal": "Author Byline & Credentials",
+            "detected": false,
+            "detail": "Authorship identification builds personal experience and topical authority."
+          },
+          {
+            "signal": "About Us / Company Profile",
+            "detected": false,
+            "detail": "Clear identity and organizational background."
+          },
+          {
+            "signal": "Contact Details & Physical Presence",
+            "detected": false,
+            "detail": "Reachable customer service and verified contact methods."
+          },
+          {
+            "signal": "Privacy Policy & Terms",
+            "detected": false,
+            "detail": "Legal transparency and user data compliance."
+          },
+          {
+            "signal": "HTTPS Security Encryption",
+            "detected": true,
+            "detail": "Modern SSL/TLS transport layer security."
+          },
+          {
+            "signal": "Trust Badges & External Citations",
+            "detected": false,
+            "detail": "Verifiable external claims and factual references."
+          }
+        ]
+      },
+      "issues": [
+        {
+          "id": "seo-title-length",
+          "category": "SEO",
+          "severity": "warning",
+          "title": "Suboptimal Title Length (14 characters)",
+          "description": "Your title is \"Example Domain\". Ideal length is 40–60 characters to prevent truncation on mobile and desktop Google SERPs.",
+          "impact": "Search engines may truncate your title or replace it with an automated guess.",
+          "recommendation": "Refine your title to approximately 50-60 characters including primary keyword and brand.",
+          "codeSnippet": "<title>Example Domain | Brand Name</title>"
+        },
+        {
+          "id": "seo-desc-missing",
+          "category": "SEO",
+          "severity": "critical",
+          "title": "Missing Meta Description",
+          "description": "No <meta name=\"description\"> tag was discovered on the page.",
+          "impact": "Search engines generate random snippet text, reducing click-through rate.",
+          "recommendation": "Provide a compelling description summarizing page value in 130-160 characters.",
+          "codeSnippet": "<meta name=\"description\" content=\"Discover actionable website audits across SEO, AEO, AIO, GEO, and E-E-A-T dimensions with CrawlLens.\">"
+        },
+        {
+          "id": "seo-h1-missing",
+          "category": "SEO",
+          "severity": "critical",
+          "title": "No <h1> Heading Found",
+          "description": "The page lacks a primary H1 heading to establish topic semantics.",
+          "impact": "Weakens content structure signals for both Google and AI search agents.",
+          "recommendation": "Add a single descriptive H1 heading containing the primary search query.",
+          "codeSnippet": "<h1>AI & Search Engine Optimization Platform</h1>"
+        },
+        {
+          "id": "seo-canonical-missing",
+          "category": "SEO",
+          "severity": "warning",
+          "title": "Canonical Tag Missing",
+          "description": "No <link rel=\"canonical\"> specified to declare the master version of this URL.",
+          "impact": "Risk of duplicate content penalties if URLs have query parameters or trailing slashes.",
+          "recommendation": "Add canonical link tag in the document <head>.",
+          "codeSnippet": "<link rel=\"canonical\" href=\"https://example.com/\" />"
+        },
+        {
+          "id": "aeo-faq-missing",
+          "category": "AEO",
+          "severity": "warning",
+          "title": "No FAQ Schema Markup Detected",
+          "description": "Answer engines like Google SGE, Perplexity, and Siri rely on FAQ markup to deliver direct voice responses.",
+          "impact": "Loses top-of-SERP answer boxes and voice assistant citations.",
+          "recommendation": "Add FAQ Schema JSON-LD with common user queries and concise direct answers.",
+          "codeSnippet": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"What is CrawlLens?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"CrawlLens is an advanced multi-dimensional website audit engine covering SEO, AEO, AIO, GEO, and E-E-A-T.\"\n    }\n  }]\n}\n</script>"
+        },
+        {
+          "id": "aeo-q-headings-missing",
+          "category": "AEO",
+          "severity": "warning",
+          "title": "Few Question-Based Headings",
+          "description": "Most headings are purely topical rather than structured as explicit questions.",
+          "impact": "Answer engines struggle to pair user voice prompts with your answers.",
+          "recommendation": "Convert key subheadings into natural conversational questions like \"How does X work?\"."
+        },
+        {
+          "id": "aeo-lists-missing",
+          "category": "AEO",
+          "severity": "warning",
+          "title": "Low Ordered / Bulleted List Usage",
+          "description": "Found minimal structured list elements (<ul>, <ol>). Answer engines prefer listicles for process steps.",
+          "impact": "Decreased eligibility for bulleted carousel answer cards.",
+          "recommendation": "Format step-by-step instructions and feature comparisons into ordered or unordered lists."
+        },
+        {
+          "id": "aio-robots-good",
+          "category": "AIO",
+          "severity": "good",
+          "title": "AI Crawlers Allowed & Indexable",
+          "description": "Robots meta permits full indexing by GPTBot, ClaudeBot, and PerplexityBot.",
+          "impact": "Enables your brand to be cited in generative answers and AI chat engines.",
+          "recommendation": "Maintain explicit allow directives in your robots.txt."
+        },
+        {
+          "id": "aio-thin-content",
+          "category": "AIO",
+          "severity": "warning",
+          "title": "Low Text Density for LLM Synthesis",
+          "description": "Only 25 words detected. AI models require contextual depth to reliably cite your page as a primary source.",
+          "impact": "Likely to be ignored during AI retrieval-augmented generation (RAG) pipelines.",
+          "recommendation": "Expand comprehensive coverage with detailed explanations, technical definitions, and real data points."
+        },
+        {
+          "id": "aio-schema-missing",
+          "category": "AIO",
+          "severity": "warning",
+          "title": "No JSON-LD Entity Signals",
+          "description": "Zero structured data schemas found. AI models use Knowledge Graph entities to connect facts to your brand.",
+          "impact": "Reduces entity disambiguation and authority recognition by AI search engines.",
+          "recommendation": "Add Organization, WebSite, or TechArticle schema markup."
+        },
+        {
+          "id": "geo-tables-missing",
+          "category": "GEO",
+          "severity": "warning",
+          "title": "No Tabular Data Found",
+          "description": "Comparison tables and structured metrics are missing.",
+          "impact": "Generative search often synthesizes data from competing sites with clean tables.",
+          "recommendation": "Present key metrics, pricing, or feature comparisons in standard HTML <table> tags."
+        },
+        {
+          "id": "geo-quotability",
+          "category": "GEO",
+          "severity": "warning",
+          "title": "Limited Quotable Soundbites",
+          "description": "Page lacks highlighted takeaway quotes, bold takeaways, or blockquotes.",
+          "impact": "Generative models prefer extracting punchy, high-confidence quotable summaries.",
+          "recommendation": "Highlight key takeaways with <blockquote> or callout summary cards."
+        },
+        {
+          "id": "geo-social-missing",
+          "category": "GEO",
+          "severity": "warning",
+          "title": "Incomplete Open Graph & Social Cards",
+          "description": "Missing og:image or twitter:card meta tags.",
+          "impact": "Reduces generative multimodal preview capabilities across AI platforms.",
+          "recommendation": "Add high-resolution og:image (1200x630) and twitter:card meta tags.",
+          "codeSnippet": "<meta property=\"og:image\" content=\"https://example.com/og-image.jpg\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">"
+        },
+        {
+          "id": "eeat-author-missing",
+          "category": "EEAT",
+          "severity": "warning",
+          "title": "Missing Author Byline / Expertise Badge",
+          "description": "No explicit author or reviewer attribution was identified in the content.",
+          "impact": "Fails Google Quality Rater guidelines for transparency, especially in YMYL topics.",
+          "recommendation": "Add an author byline with credentials, photo, and link to complete bio.",
+          "codeSnippet": "<div class=\"author-byline\">Written by <a href=\"/team/john-doe\">John Doe</a>, Technical SEO Lead</div>"
+        },
+        {
+          "id": "eeat-about-contact-missing",
+          "category": "EEAT",
+          "severity": "warning",
+          "title": "Missing About Us or Direct Contact Information",
+          "description": "Could not find clear links to an About Us or Contact page.",
+          "impact": "Damages user trust signals and lowers site quality evaluations.",
+          "recommendation": "Ensure footer contains prominent links to About Us, Contact, and Support."
+        },
+        {
+          "id": "eeat-privacy-missing",
+          "category": "EEAT",
+          "severity": "warning",
+          "title": "Missing Privacy Policy Link",
+          "description": "No Privacy Policy or Terms of Service link detected in the DOM.",
+          "impact": "Violates GDPR/CCPA regulatory expectations and lowers baseline site credibility.",
+          "recommendation": "Add visible links to Privacy Policy and Terms of Use in footer."
+        }
+      ],
+      "urls": []
+    },
+    {
+      "id": "audit_sample_google",
+      "userId": "user_demo_123",
+      "url": "https://example.com",
+      "normalizedUrl": "https://example.com",
+      "domain": "example.com",
+      "crawledAt": "2026-11-09T13:43:38.095Z",
+      "status": "completed",
+      "responseTimeMs": 340,
+      "httpStatus": 200,
+      "scores": {
+        "overall": 82,
+        "seo": 88,
+        "aeo": 75,
+        "aio": 80,
+        "geo": 78,
+        "eeat": 90
+      },
+      "summary": {
+        "title": "Example Domain - Official Documentation and Standard Reference",
+        "metaDescription": "Illustrative examples in documents without prior coordination. Used for documentation and testing purposes.",
+        "canonicalUrl": "https://example.com",
+        "h1Count": 1,
+        "headings": [
+          {
+            "level": "H1",
+            "text": "Example Domain"
+          },
+          {
+            "level": "H2",
+            "text": "Topical Overview & Purpose"
+          },
+          {
+            "level": "H3",
+            "text": "Standard Compliance and Usage Guidelines"
+          }
+        ],
+        "wordCount": 840,
+        "readingTimeMinutes": 4,
+        "imagesCount": 3,
+        "missingAltImagesCount": 0,
+        "internalLinksCount": 14,
+        "externalLinksCount": 6,
+        "schemaTypes": [
+          "WebSite",
+          "Organization"
+        ],
+        "hasSitemap": true,
+        "hasRobotsTxt": true,
+        "aiBotDirectives": [
+          {
+            "bot": "GPTBot (OpenAI Search)",
+            "allowed": true
+          },
+          {
+            "bot": "PerplexityBot (Perplexity AI)",
+            "allowed": true
+          },
+          {
+            "bot": "ClaudeBot (Anthropic)",
+            "allowed": true
+          },
+          {
+            "bot": "Google-Extended (Gemini)",
+            "allowed": true
+          },
+          {
+            "bot": "BingBot (Copilot)",
+            "allowed": true
+          }
+        ],
+        "eeatSignals": [
+          {
+            "signal": "Author Byline & Credentials",
+            "detected": true,
+            "detail": "RFC & IANA Documentation Team"
+          },
+          {
+            "signal": "About Us / Company Profile",
+            "detected": true,
+            "detail": "IANA Authority"
+          },
+          {
+            "signal": "Contact Details & Physical Presence",
+            "detected": true,
+            "detail": "Domain contact records available"
+          },
+          {
+            "signal": "Privacy Policy & Terms",
+            "detected": true,
+            "detail": "Standard IANA disclosure"
+          },
+          {
+            "signal": "HTTPS Security Encryption",
+            "detected": true,
+            "detail": "TLS v1.3 encryption verified"
+          },
+          {
+            "signal": "Trust Badges & External Citations",
+            "detected": true,
+            "detail": "Referenced in RFC 2606 and RFC 6761"
+          }
+        ]
+      },
+      "issues": [
+        {
+          "id": "seo-1",
+          "category": "SEO",
+          "severity": "good",
+          "title": "Single Definitive H1 Heading",
+          "description": "The page correctly provides a single descriptive H1 heading: \"Example Domain\".",
+          "impact": "Establishes clear hierarchy for search crawlers.",
+          "recommendation": "Maintain strict single H1 structure."
+        },
+        {
+          "id": "aeo-1",
+          "category": "AEO",
+          "severity": "warning",
+          "title": "Missing FAQ Schema.org Structured Data",
+          "description": "No FAQPage schema found in JSON-LD markup.",
+          "impact": "Reduces snippet visibility in conversational search engines and Google SGE.",
+          "recommendation": "Add FAQ Schema to capture common user intent directly in voice search.",
+          "codeSnippet": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": []\n}\n</script>"
+        },
+        {
+          "id": "aio-1",
+          "category": "AIO",
+          "severity": "good",
+          "title": "Clean Semantic HTML for LLM Ingestion",
+          "description": "No obfuscated JavaScript or cloaked content. Text is cleanly formatted for AI agents.",
+          "impact": "Perplexity and ChatGPT Search can accurately retrieve and cite content fragments.",
+          "recommendation": "Keep DOM clean and semantic."
+        },
+        {
+          "id": "geo-1",
+          "category": "GEO",
+          "severity": "warning",
+          "title": "Limited Tabular Comparison Data",
+          "description": "Generative search engines prefer comparison tables to synthesize answers.",
+          "impact": "Missing opportunities for generative matrix summaries.",
+          "recommendation": "Format feature lists or numerical data into HTML tables."
+        },
+        {
+          "id": "eeat-1",
+          "category": "EEAT",
+          "severity": "good",
+          "title": "Strong Organizational Authority",
+          "description": "Clear domain identity backed by IANA standards.",
+          "impact": "Highest possible domain trust rating.",
+          "recommendation": "Continue maintaining active SSL certificate."
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://example.com/more-information",
+          "type": "internal",
+          "status": 200,
+          "anchor": "More information..."
+        },
+        {
+          "url": "https://www.iana.org/domains/example",
+          "type": "external",
+          "status": 200,
+          "anchor": "IANA Root Zone"
+        }
+      ]
+    }
+  ]
+}

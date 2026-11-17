@@ -1,0 +1,8 @@
+{
+  "name": "SEO AI PRO - Advanced Search Intelligence",
+  "description": "Enterprise-grade SEO SaaS platform featuring predictive keyword ranking, search demand forecasting, entity-based intelligence, and comprehensive AIO/GEO/EEAT audits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
